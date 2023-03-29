@@ -1,0 +1,67 @@
+body {
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.formbg {
+    background-color: white;
+    border-radius: 5px;
+    height: 90vh;
+    width: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 90%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    min-height: none;
+}
+
+.idname {
+    display: flex;
+    flex-direction: column;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginbtn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vh;
+    border-radius: 5px;
+}
+
+span {
+    margin: 3vh 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+}
+
+input {
+    border-radius: 5px;
+    padding: 2vh;
+    background-color: white;
+}
+.login {
+    padding: 2vh 8vh;
+    background-color: green;
+    margin-top: 6vh;
+    border-radius: 5px;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vh;
+}
